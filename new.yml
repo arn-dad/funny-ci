@@ -1,0 +1,10 @@
+name: Name
+age: 23
+isRobot: true
+object:
+  key2: key2
+
+array:
+  - one
+  - tow
+  - three
