@@ -19,3 +19,5 @@ jobs:
           echo "${{ secrets.GITHUB_TOKEN }}"
           echo '----GH_TOKEN----'
           echo "${{ secrets.GITHUB_TOKEN }}"
+          echo '----SECRET_NAME----'
+          echo "${{ secrets.SECRET_NAME }}"
