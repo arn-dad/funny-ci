@@ -15,4 +15,5 @@ jobs:
           echo $GITHUB_REPOSITORY
           echo $GITHUB_WORKSPACE
           echo $GITHUB_REF_NAME
-          echo "${{github.token}}"
+          echo '--------'
+          echo "${{ secrets.GITHUB_TOKEN }}"
